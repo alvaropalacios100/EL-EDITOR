@@ -1,0 +1,20 @@
+{
+  "name": "EL EDITOR",
+  "short_name": "EL EDITOR",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5eedc",
+  "theme_color": "#f5eedc",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

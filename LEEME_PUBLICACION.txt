@@ -1,0 +1,14 @@
+EL EDITOR 1.7.2 — DIRECTORIO SOLO PÚBLICO
+
+Sube el CONTENIDO de esta carpeta a la raíz de un repositorio público de GitHub.
+En Settings > Pages selecciona GitHub Actions.
+Esta versión publica una FOTO ESTÁTICA de la edición; las noticias y las
+columnas NO se actualizan automáticamente en el alojamiento hasta construir
+una edición nueva y volver a subir los archivos.
+
+NO subas a GitHub el ZIP local completo: contiene posibles borradores,
+claves futuras, configuración y datos que no son públicos.
+
+El mecanismo de despliegue está en .github/workflows/publicar.yml.
+Las publicaciones futuras no han sido exportadas.
+Antes de abrir al público, revisa los derechos sobre fotos y textos de medios.
