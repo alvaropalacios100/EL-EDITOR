@@ -1,8 +1,11 @@
+
 name: Publicar EL EDITOR
 on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "15 6,18 * * *"
 permissions:
   contents: read
   pages: write
@@ -19,6 +22,10 @@ jobs:
     steps:
       - name: Obtener el sitio
         uses: actions/checkout@v4
+      - name: Actualizar vídeos de YouTube
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python3 scripts/actualizar_youtube.py
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
       - name: Subir archivos publicos
