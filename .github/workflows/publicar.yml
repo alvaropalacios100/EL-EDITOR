@@ -23,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Preparar motor editorial
-        run: unzip -q EL_EDITOR_v174_motor.zip -d "$RUNNER_TEMP/editor"
+        run: unzip -q EL_EDITOR_v180_motor.zip -d "$RUNNER_TEMP/editor"
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -63,6 +63,15 @@ jobs:
           path: ${{ runner.temp }}/editor/engine/diagnostico_candidatos_v168.csv
       - name: Preparar edición pública
         run: python "$RUNNER_TEMP/editor/engine/publicar_v173.py" "$GITHUB_WORKSPACE" "$RUNNER_TEMP/site"
+      - name: Obtener redacción privada
+        uses: actions/checkout@v4
+        with:
+          repository: alvaropalacios100/EL-EDITOR-REDACCION
+          token: ${{ secrets.REDACCION_READ_TOKEN }}
+          path: redaccion-privada
+          persist-credentials: false
+      - name: Publicar artículos propios
+        run: python "$RUNNER_TEMP/editor/engine/redaccion_v180.py" "$RUNNER_TEMP/site" "$GITHUB_WORKSPACE/redaccion-privada"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
@@ -70,4 +79,3 @@ jobs:
       - name: Publicar en GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-  
