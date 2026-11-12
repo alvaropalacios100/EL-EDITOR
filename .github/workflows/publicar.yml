@@ -22,8 +22,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - name: Preparar motor editorial            
-        run: unzip -q EL_EDITOR_v183_motor.zip -d "$RUNNER_TEMP/editor"
+      - name: Preparar motor editorial                    
+        run: unzip -q EL_EDITOR_v185_motor.zip -d "$RUNNER_TEMP/editor"
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
