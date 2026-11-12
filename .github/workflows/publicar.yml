@@ -1,3 +1,4 @@
+
 name: Publicar EL EDITOR
 on:
   push:
@@ -22,9 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Preparar motor editorial
-        
-        run: unzip -q EL_EDITOR_v173_motor-1.zip -d "$RUNNER_TEMP/editor"
-
+        run: unzip -q EL_EDITOR_v174_motor.zip -d "$RUNNER_TEMP/editor"
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -39,6 +38,7 @@ jobs:
             ${{ runner.temp }}/editor/engine/videos_v166.json
             ${{ runner.temp }}/editor/engine/historial_videos_v166.json
             ${{ runner.temp }}/editor/engine/traducciones_v166.json
+            ${{ runner.temp }}/editor/engine/titulares_v174.json
           key: editor-v173-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: editor-v173-
       - name: Recopilar noticias y vídeos
@@ -54,7 +54,13 @@ jobs:
             ${{ runner.temp }}/editor/engine/videos_v166.json
             ${{ runner.temp }}/editor/engine/historial_videos_v166.json
             ${{ runner.temp }}/editor/engine/traducciones_v166.json
+            ${{ runner.temp }}/editor/engine/titulares_v174.json
           key: editor-v173-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Descargar diagnóstico de canales
+        uses: actions/upload-artifact@v4
+        with:
+          name: diagnostico-youtube
+          path: ${{ runner.temp }}/editor/engine/diagnostico_candidatos_v168.csv
       - name: Preparar edición pública
         run: python "$RUNNER_TEMP/editor/engine/publicar_v173.py" "$GITHUB_WORKSPACE" "$RUNNER_TEMP/site"
       - uses: actions/configure-pages@v5
@@ -64,3 +70,5 @@ jobs:
       - name: Publicar en GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+defaults:
+  
