@@ -1,11 +1,10 @@
-
 name: Publicar EL EDITOR
 on:
   push:
     branches: [main]
   workflow_dispatch:
   schedule:
-    - cron: "15 6,18 * * *"
+    - cron: '15 6,18 * * *'
 permissions:
   contents: read
   pages: write
@@ -15,23 +14,51 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     steps:
-      - name: Obtener el sitio
-        uses: actions/checkout@v4
-      - name: Actualizar vídeos de YouTube
+      - uses: actions/checkout@v4
+      - name: Preparar motor editorial
+        run: unzip -q EL_EDITOR_v173_motor.zip -d "$RUNNER_TEMP/editor"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar soporte de imágenes
+        run: python -m pip install Pillow
+      - name: Recuperar reserva y rotaciones
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            ${{ runner.temp }}/editor/engine/reserva_youtube_v173.json
+            ${{ runner.temp }}/editor/engine/canales_api_v173.json
+            ${{ runner.temp }}/editor/engine/videos_v166.json
+            ${{ runner.temp }}/editor/engine/historial_videos_v166.json
+            ${{ runner.temp }}/editor/engine/traducciones_v166.json
+          key: editor-v173-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: editor-v173-
+      - name: Recopilar noticias y vídeos
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: python3 scripts/actualizar_youtube.py
-      - name: Configurar GitHub Pages
-        uses: actions/configure-pages@v5
-      - name: Subir archivos publicos
-        uses: actions/upload-pages-artifact@v4
+        run: python "$RUNNER_TEMP/editor/engine/recopilador_v172.py" --online
+      - name: Guardar reserva y rotaciones
+        uses: actions/cache/save@v4
         with:
-          path: .
+          path: |
+            ${{ runner.temp }}/editor/engine/reserva_youtube_v173.json
+            ${{ runner.temp }}/editor/engine/canales_api_v173.json
+            ${{ runner.temp }}/editor/engine/videos_v166.json
+            ${{ runner.temp }}/editor/engine/historial_videos_v166.json
+            ${{ runner.temp }}/editor/engine/traducciones_v166.json
+          key: editor-v173-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Preparar edición pública
+        run: python "$RUNNER_TEMP/editor/engine/publicar_v173.py" "$GITHUB_WORKSPACE" "$RUNNER_TEMP/site"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ runner.temp }}/site
       - name: Publicar en GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
