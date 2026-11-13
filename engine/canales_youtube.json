@@ -1,0 +1,662 @@
+[
+  {
+    "section": "gabinete",
+    "channel": "Alán Barroso",
+    "query": "Alán Barroso",
+    "count": 3,
+    "match": [
+      "alán barroso",
+      "alan barroso"
+    ],
+    "exclude": [
+      "clips"
+    ],
+    "topic": []
+  },
+  {
+    "section": "gabinete",
+    "channel": "La Base",
+    "query": "La Base Canal Red programa política",
+    "count": 1,
+    "match": [
+      "la base",
+      "canal red",
+      "canalred"
+    ],
+    "topic": [
+      "la base"
+    ]
+  },
+  {
+    "section": "entretenimiento",
+    "channel": "LA Script",
+    "query": "LA Script cine series",
+    "count": 2,
+    "match": [
+      "la script"
+    ],
+    "topic": []
+  },
+  {
+    "section": "entretenimiento",
+    "channel": "Sowick",
+    "query": "Sowick películas series",
+    "count": 1,
+    "match": [
+      "sowick"
+    ],
+    "topic": []
+  },
+  {
+    "section": "entretenimiento",
+    "channel": "Fatty Martin",
+    "query": "Fatty Martin",
+    "count": 1,
+    "match": [
+      "fatty martin"
+    ],
+    "topic": []
+  },
+  {
+    "section": "entretenimiento",
+    "channel": "Jordi Maquiavello",
+    "query": "Jordi Maquiavello cine series películas",
+    "count": 1,
+    "match": [
+      "jordi maquiavello"
+    ],
+    "topic": []
+  },
+  {
+    "section": "videojuegos",
+    "channel": "Mprin",
+    "query": "Mprin Los Sims",
+    "count": 1,
+    "match": [
+      "mprin"
+    ],
+    "topic": [
+      "sims"
+    ]
+  },
+  {
+    "section": "videojuegos",
+    "channel": "Chiches",
+    "query": "Chiches Cities Skylines",
+    "count": 2,
+    "match": [
+      "chiches"
+    ],
+    "topic": [
+      "cities skylines",
+      "cities: skylines"
+    ]
+  },
+  {
+    "section": "videojuegos",
+    "channel": "Folagor03",
+    "query": "Folagor03 Pokemon",
+    "count": 1,
+    "match": [
+      "folagor03",
+      "folagor"
+    ],
+    "topic": [
+      "pokemon",
+      "pokémon"
+    ]
+  },
+  {
+    "section": "express",
+    "channel": "La Ruina",
+    "query": "La Ruina podcast capítulo",
+    "count": 1,
+    "match": [
+      "la ruina"
+    ],
+    "topic": [
+      "la ruina"
+    ]
+  },
+  {
+    "section": "express",
+    "channel": "El Comidista",
+    "query": "El Comidista El País",
+    "count": 1,
+    "match": [
+      "el comidista"
+    ],
+    "topic": []
+  },
+  {
+    "section": "express",
+    "channel": "Linguriosa",
+    "query": "Linguriosa canal oficial",
+    "count": 3,
+    "match": [
+      "linguriosa"
+    ],
+    "topic": []
+  },
+  {
+    "section": "express",
+    "channel": "Putomikel",
+    "query": "Putomikel canal oficial",
+    "count": 3,
+    "match": [
+      "putomikel"
+    ],
+    "topic": []
+  },
+  {
+    "section": "express",
+    "channel": "La Gata de Schrödinger",
+    "query": "La Gata de Schrödinger canal ciencia",
+    "count": 3,
+    "match": [
+      "la gata de schrödinger",
+      "la gata de schrodinger"
+    ],
+    "topic": []
+  },
+  {
+    "section": "express_podcast",
+    "channel": "Cuarto Milenio",
+    "query": "Cuarto Milenio Iker Jiménez programa completo",
+    "count": 1,
+    "match": [
+      "cuarto milenio"
+    ],
+    "topic": [
+      "cuarto milenio"
+    ]
+  },
+  {
+    "section": "express_podcast",
+    "channel": "Estirando el chicle",
+    "query": "Estirando el chicle podcast episodio completo",
+    "count": 1,
+    "match": [
+      "estirando el chicle"
+    ],
+    "topic": [
+      "estirando el chicle"
+    ]
+  },
+  {
+    "section": "express_podcast",
+    "channel": "Soyunapringada",
+    "query": "Soyunapringada podcast Esty Quesada completo",
+    "count": 1,
+    "match": [
+      "soyunapringada",
+      "soy una pringada",
+      "esty quesada"
+    ],
+    "topic": []
+  },
+  {
+    "section": "express_podcast",
+    "channel": "Ni tan bien SER",
+    "query": "Ni tan bien Cadena SER Carolina Iglesias episodio completo",
+    "count": 1,
+    "match": [
+      "cadena ser",
+      "ni tan bien"
+    ],
+    "topic": [
+      "ni tan bien"
+    ]
+  },
+  {
+    "section": "express_podcast",
+    "channel": "Todopoderosos Fundación Telefónica",
+    "query": "Todopoderosos Espacio Fundación Telefónica podcast completo",
+    "count": 1,
+    "match": [
+      "fundacion telefonica",
+      "fundación telefónica",
+      "todopoderosos"
+    ],
+    "topic": [
+      "todopoderosos"
+    ]
+  },
+  {
+    "section": "celebrities",
+    "channel": "Lady Gaga",
+    "query": "Lady Gaga official music video canal oficial",
+    "count": 1,
+    "match": [
+      "lady gaga"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 1
+  },
+  {
+    "section": "celebrities",
+    "channel": "Madonna",
+    "query": "Madonna official music video canal oficial",
+    "count": 1,
+    "match": [
+      "madonna"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 1
+  },
+  {
+    "section": "celebrities",
+    "channel": "Amaral",
+    "query": "Amaral official music video canal oficial",
+    "count": 1,
+    "match": [
+      "amaral"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 1
+  },
+  {
+    "section": "celebrities",
+    "channel": "Rosalía",
+    "query": "Rosalía official music video canal oficial",
+    "count": 1,
+    "match": [
+      "rosalía",
+      "rosalia"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 1
+  },
+  {
+    "section": "celebrities",
+    "channel": "Taylor Swift",
+    "query": "Taylor Swift official music video",
+    "count": 1,
+    "match": [
+      "Taylor Swift"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 1
+  },
+  {
+    "section": "celebrities",
+    "channel": "Leire Martínez",
+    "query": "Leire Martínez official music video canal oficial",
+    "count": 1,
+    "match": [
+      "leire martínez",
+      "leire martinez"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 2
+  },
+  {
+    "section": "celebrities",
+    "channel": "La Oreja de Van Gogh",
+    "query": "La Oreja de Van Gogh official music video canal oficial",
+    "count": 1,
+    "match": [
+      "la oreja de van gogh",
+      "la oreja de vangogh"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 2
+  },
+  {
+    "section": "celebrities",
+    "channel": "Miley Cyrus",
+    "query": "Miley Cyrus official music video canal oficial",
+    "count": 1,
+    "match": [
+      "miley cyrus"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 2
+  },
+  {
+    "section": "celebrities",
+    "channel": "Troye Sivan",
+    "query": "Troye Sivan official music video canal oficial",
+    "count": 1,
+    "match": [
+      "troye sivan"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 2
+  },
+  {
+    "section": "celebrities",
+    "channel": "Guitarricadelafuente",
+    "query": "Guitarricadelafuente official music video canal oficial",
+    "count": 1,
+    "match": [
+      "guitarricadelafuente"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 2
+  },
+  {
+    "section": "celebrities",
+    "channel": "Chanel",
+    "query": "Chanel official music video",
+    "count": 1,
+    "match": [
+      "Chanel"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 2
+  },
+  {
+    "section": "celebrities",
+    "channel": "Mahmood",
+    "query": "Mahmood official music video",
+    "count": 1,
+    "match": [
+      "Mahmood"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 2
+  },
+  {
+    "section": "celebrities",
+    "channel": "Ana Mena",
+    "query": "Ana Mena official music video",
+    "count": 1,
+    "match": [
+      "Ana Mena"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 2
+  },
+  {
+    "section": "celebrities",
+    "channel": "Mariah Carey",
+    "query": "Mariah Carey official music video canal oficial",
+    "count": 1,
+    "match": [
+      "mariah carey"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 3
+  },
+  {
+    "section": "celebrities",
+    "channel": "Adele",
+    "query": "Adele official music video canal oficial",
+    "count": 1,
+    "match": [
+      "adele"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 3
+  },
+  {
+    "section": "celebrities",
+    "channel": "Amaia",
+    "query": "Amaia official music video canal oficial",
+    "count": 1,
+    "match": [
+      "amaia"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 3
+  },
+  {
+    "section": "celebrities",
+    "channel": "Omar Rudberg",
+    "query": "Omar Rudberg official music video canal oficial",
+    "count": 1,
+    "match": [
+      "omar rudberg"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 3
+  },
+  {
+    "section": "celebrities",
+    "channel": "Aitana",
+    "query": "Aitana official music video canal oficial",
+    "count": 1,
+    "match": [
+      "aitana"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 3
+  },
+  {
+    "section": "celebrities",
+    "channel": "Lana del Rey",
+    "query": "Lana del Rey official music video canal oficial",
+    "count": 1,
+    "match": [
+      "lana del rey"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 3
+  },
+  {
+    "section": "celebrities",
+    "channel": "Ariana Grande",
+    "query": "Ariana Grande official music video",
+    "count": 1,
+    "match": [
+      "Ariana Grande"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 3
+  },
+  {
+    "section": "celebrities",
+    "channel": "Cris Lora",
+    "query": "Cris Lora official music video",
+    "count": 1,
+    "match": [
+      "Cris Lora"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 3
+  },
+  {
+    "section": "celebrities",
+    "channel": "Judit Garuz",
+    "query": "Judit Garuz official music video",
+    "count": 1,
+    "match": [
+      "Judit Garuz"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 3
+  },
+  {
+    "section": "celebrities",
+    "channel": "Miss Caffeina",
+    "query": "Miss Caffeina official music video",
+    "count": 1,
+    "match": [
+      "Miss Caffeina"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 3
+  },
+  {
+    "section": "celebrities",
+    "channel": "Abraham Mateo",
+    "query": "Abraham Mateo official music video",
+    "count": 1,
+    "match": [
+      "Abraham Mateo"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 3
+  },
+  {
+    "section": "celebrities",
+    "channel": "The Weeknd",
+    "query": "The Weeknd official music video",
+    "count": 1,
+    "match": [
+      "The Weeknd"
+    ],
+    "topic": [],
+    "official_music": true,
+    "group": 3
+  },
+  {
+    "section": "gabinete",
+    "channel": "El Pulso · Hoy por Hoy",
+    "query": "El Pulso Hoy por Hoy Cadena SER",
+    "count": 1,
+    "match": [
+      "cadena ser",
+      "hoy por hoy"
+    ],
+    "topic": [
+      "el pulso"
+    ]
+  },
+  {
+    "section": "entretenimiento",
+    "channel": "LA Script · Archivo",
+    "query": "LA Script cine película análisis antiguos vídeos",
+    "count": 2,
+    "match": [
+      "la script"
+    ],
+    "topic": [],
+    "archive": true
+  },
+  {
+    "section": "entretenimiento",
+    "channel": "Muggle Explains",
+    "query": "Muggle Explains Harry Potter series películas",
+    "count": 2,
+    "match": [
+      "muggle explains"
+    ],
+    "topic": []
+  },
+  {
+    "section": "videojuegos",
+    "channel": "Sitycims",
+    "query": "Sitycims The Sims 2 3 4",
+    "count": 2,
+    "match": [
+      "sitycims"
+    ],
+    "topic": [
+      "sims"
+    ],
+    "translate_title": true
+  },
+  {
+    "section": "videojuegos",
+    "channel": "Chiches · Variedad",
+    "query": "Chiches juegos gaming gameplay reciente",
+    "count": 2,
+    "match": [
+      "chiches"
+    ],
+    "topic": [],
+    "exclude_topics": [
+      "cities skylines",
+      "cities: skylines"
+    ]
+  },
+  {
+    "section": "videojuegos",
+    "channel": "Karimero",
+    "query": "Karimero Pokémon",
+    "count": 2,
+    "match": [
+      "karimero"
+    ],
+    "topic": [
+      "pokemon",
+      "pokémon"
+    ]
+  },
+  {
+    "section": "videojuegos",
+    "channel": "Lynx Reviewer",
+    "query": "Lynx Reviewer Pokémon",
+    "count": 2,
+    "match": [
+      "lynx reviewer",
+      "lynx reviewer"
+    ],
+    "topic": [
+      "pokemon",
+      "pokémon"
+    ]
+  },
+  {
+    "section": "gabinete",
+    "channel": "La Séptima TV",
+    "query": "la_Septima_tv La Séptima TV entrevistas actualidad",
+    "match": [
+      "la séptima",
+      "la septima",
+      "la_Septima_tv"
+    ],
+    "topic": [],
+    "count": 2
+  },
+  {
+    "section": "express",
+    "channel": "Linguriosa · Archivo",
+    "query": "Linguriosa vídeos antiguos divulgación",
+    "match": [
+      "linguriosa"
+    ],
+    "topic": [],
+    "count": 3,
+    "archive": true
+  },
+  {
+    "section": "express",
+    "channel": "Putomikel · Archivo",
+    "query": "Putomikel vídeos antiguos divulgación",
+    "match": [
+      "putomikel"
+    ],
+    "topic": [],
+    "count": 3,
+    "archive": true
+  },
+  {
+    "section": "express",
+    "channel": "La Gata de Schrödinger · Archivo",
+    "query": "La Gata de Schrödinger vídeos antiguos divulgación",
+    "match": [
+      "la gata de schrödinger",
+      "la gata de schrodinger"
+    ],
+    "topic": [],
+    "count": 3,
+    "archive": true
+  }
+]

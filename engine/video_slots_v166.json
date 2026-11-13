@@ -1,0 +1,1291 @@
+{
+  "gabinete": [
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "Alán Barroso",
+          "query": "Alán Barroso último vídeo política actualidad",
+          "match": [
+            "alán barroso",
+            "alan barroso"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "La Séptima TV",
+          "query": "la_Septima_tv canal La Séptima tv último vídeo",
+          "match": [
+            "la séptima",
+            "la septima"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        }
+      ]
+    },
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "Alán Barroso",
+          "query": "Alán Barroso último vídeo política actualidad",
+          "match": [
+            "alán barroso",
+            "alan barroso"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "El Pulso · Hoy por Hoy",
+          "query": "El Pulso Hoy por Hoy Cadena SER último programa",
+          "match": [
+            "cadena ser",
+            "hoy por hoy"
+          ],
+          "topic": [
+            "el pulso"
+          ],
+          "max_months": 1,
+          "mode": "latest",
+          "translate_title": false
+        }
+      ]
+    },
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "La Base",
+          "query": "La Base Canal Red último programa",
+          "match": [
+            "la base"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false,
+          "max_days": 14,
+          "min_minutes": 4
+        },
+        {
+          "channel": "Alán Barroso",
+          "query": "Alán Barroso último vídeo política actualidad",
+          "match": [
+            "alán barroso",
+            "alan barroso"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false,
+          "max_days": 7,
+          "min_minutes": 4
+        }
+      ]
+    }
+  ],
+  "entretenimiento": [
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "LA Script",
+          "query": "LA Script cine último vídeo",
+          "match": [
+            "la script"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest_old",
+          "translate_title": false
+        },
+        {
+          "channel": "cinexfavor",
+          "query": "cinexfavor crítica cine",
+          "match": [
+            "cinexfavor"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        },
+        {
+          "channel": "ArchivoCinemascopazo",
+          "query": "ArchivoCinemascopazo cine",
+          "match": [
+            "archivocinemascopazo"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        },
+        {
+          "channel": "Todopoderosos",
+          "query": "Todopoderosos Fundación Telefónica",
+          "match": [
+            "todopoderosos"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        }
+      ]
+    },
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "FórmulaTV",
+          "query": "FórmulaTV Drag Race Benidorm Fest Eurovisión entrevistas",
+          "match": [
+            "formulatv",
+            "fórmula tv"
+          ],
+          "topic": [],
+          "max_months": 12,
+          "mode": "latest_old",
+          "translate_title": false,
+          "topic_preference": [
+            "drag race",
+            "benidorm fest",
+            "eurovisión",
+            "eurovision"
+          ]
+        },
+        {
+          "channel": "Shangay",
+          "query": "Shangay televisión cine vídeos",
+          "match": [
+            "shangay"
+          ],
+          "topic": [],
+          "max_months": 6,
+          "mode": "latest_old",
+          "translate_title": false
+        }
+      ]
+    },
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "Sowick",
+          "query": "Sowick cine series",
+          "match": [
+            "sowick"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest_old",
+          "translate_title": false
+        },
+        {
+          "channel": "Muggle Explains",
+          "query": "Muggle Explains Harry Potter",
+          "match": [
+            "muggle explains"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        },
+        {
+          "channel": "Jordi Maquiavello",
+          "query": "Jordi Maquiavello cine",
+          "match": [
+            "jordi maquiavello"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest_old",
+          "translate_title": false
+        }
+      ]
+    },
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "Fatty Martin",
+          "query": "Fatty Martin cine",
+          "match": [
+            "fatty martin"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest_old",
+          "translate_title": false
+        },
+        {
+          "channel": "Elengycine",
+          "query": "Elengycine cine series",
+          "match": [
+            "elengycine"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest_old",
+          "translate_title": false
+        }
+      ]
+    },
+    {
+      "label": "ZONA TRAILERS",
+      "candidates": [
+        {
+          "channel": "WarnerBros.PicturesEspaña",
+          "query": "Warner Bros Pictures España tráiler oficial",
+          "match": [
+            "warner bros"
+          ],
+          "topic": [],
+          "max_months": 2,
+          "mode": "latest_old",
+          "translate_title": false
+        },
+        {
+          "channel": "SonyPicturesSpain",
+          "query": "Sony Pictures Spain trailer oficial",
+          "match": [
+            "sony pictures"
+          ],
+          "topic": [],
+          "max_months": 2,
+          "mode": "latest_old",
+          "translate_title": false
+        },
+        {
+          "channel": "ParamountPicturesES",
+          "query": "Paramount Pictures España tráiler",
+          "match": [
+            "paramount pictures"
+          ],
+          "topic": [],
+          "max_months": 2,
+          "mode": "latest_old",
+          "translate_title": false
+        },
+        {
+          "channel": "HBOMaxES",
+          "query": "HBO Max España tráiler",
+          "match": [
+            "hbo max",
+            "hbomax"
+          ],
+          "topic": [],
+          "max_months": 2,
+          "mode": "latest_old",
+          "translate_title": false
+        }
+      ]
+    },
+    {
+      "label": "ZONA TRAILERS",
+      "candidates": [
+        {
+          "channel": "NetflixEspana",
+          "query": "Netflix España trailer oficial",
+          "match": [
+            "netflix españa",
+            "netflix spain"
+          ],
+          "topic": [],
+          "max_months": 2,
+          "mode": "latest_old",
+          "translate_title": false
+        },
+        {
+          "channel": "disneyspain",
+          "query": "Disney España tráiler",
+          "match": [
+            "disney españa"
+          ],
+          "topic": [],
+          "max_months": 2,
+          "mode": "latest_old",
+          "translate_title": false
+        },
+        {
+          "channel": "disneypluses",
+          "query": "Disney Plus España trailer",
+          "match": [
+            "disney+ españa",
+            "disney plus"
+          ],
+          "topic": [],
+          "max_months": 2,
+          "mode": "latest_old",
+          "translate_title": false
+        },
+        {
+          "channel": "Universal_Spain",
+          "query": "Universal Pictures España tráiler",
+          "match": [
+            "universal pictures spain",
+            "universal pictures españa"
+          ],
+          "topic": [],
+          "max_months": 2,
+          "mode": "latest_old",
+          "translate_title": false
+        }
+      ]
+    }
+  ],
+  "celebrities": [
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "HolaRevistaES",
+          "query": "HOLA revista España famosos último vídeo",
+          "match": [
+            "hola revista",
+            "¡hola!"
+          ],
+          "topic": [],
+          "max_months": 1,
+          "mode": "latest_old",
+          "translate_title": false
+        },
+        {
+          "channel": "Jenesaispop",
+          "query": "Jenesaispop vídeo entrevista música",
+          "match": [
+            "jenesaispop"
+          ],
+          "topic": [],
+          "max_months": 3,
+          "mode": "latest_old",
+          "translate_title": false
+        },
+        {
+          "channel": "Vanity Fair España",
+          "query": "Vanity Fair España La toma buena",
+          "match": [
+            "vanity fair españa",
+            "vanity fair spain"
+          ],
+          "topic": [
+            "la toma buena"
+          ],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        }
+      ]
+    },
+    {
+      "label": "ZONA MÚSICA",
+      "candidates": [
+        {
+          "channel": "Miley Cyrus",
+          "query": "Miley Cyrus videoclip oficial último vídeo",
+          "match": [
+            "miley cyrus"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Troye Sivan",
+          "query": "Troye Sivan videoclip oficial último vídeo",
+          "match": [
+            "troye sivan"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Guitarricadelafuente",
+          "query": "Guitarricadelafuente videoclip oficial último vídeo",
+          "match": [
+            "guitarricadelafuente"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Chanel",
+          "query": "Chanel videoclip oficial último vídeo",
+          "match": [
+            "chanel"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Ana Mena",
+          "query": "Ana Mena videoclip oficial último vídeo",
+          "match": [
+            "ana mena"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Lady Gaga",
+          "query": "Lady Gaga videoclip oficial último vídeo",
+          "match": [
+            "lady gaga"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Madonna",
+          "query": "Madonna videoclip oficial último vídeo",
+          "match": [
+            "madonna"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Amaral",
+          "query": "Amaral videoclip oficial último vídeo",
+          "match": [
+            "amaral"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Rosalía",
+          "query": "Rosalía videoclip oficial último vídeo",
+          "match": [
+            "rosalía"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Taylor Swift",
+          "query": "Taylor Swift videoclip oficial último vídeo",
+          "match": [
+            "taylor swift"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Sabrina Carpenter",
+          "query": "Sabrina Carpenter videoclip oficial último vídeo",
+          "match": [
+            "sabrina carpenter"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Chappell Roan",
+          "query": "Chappell Roan videoclip oficial último vídeo",
+          "match": [
+            "chappell roan"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        }
+      ]
+    },
+    {
+      "label": "ZONA MÚSICA",
+      "candidates": [
+        {
+          "channel": "Mariah Carey",
+          "query": "Mariah Carey videoclip oficial último vídeo",
+          "match": [
+            "mariah carey"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Adele",
+          "query": "Adele videoclip oficial último vídeo",
+          "match": [
+            "adele"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Amaia",
+          "query": "Amaia videoclip oficial último vídeo",
+          "match": [
+            "amaia"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Omar Rudberg",
+          "query": "Omar Rudberg videoclip oficial último vídeo",
+          "match": [
+            "omar rudberg"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Aitana",
+          "query": "Aitana videoclip oficial último vídeo",
+          "match": [
+            "aitana"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Lana del Rey",
+          "query": "Lana del Rey videoclip oficial último vídeo",
+          "match": [
+            "lana del rey"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Ariana Grande",
+          "query": "Ariana Grande videoclip oficial último vídeo",
+          "match": [
+            "ariana grande"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Cris Lora",
+          "query": "Cris Lora videoclip oficial último vídeo",
+          "match": [
+            "cris lora"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Judit Garuz",
+          "query": "Judit Garuz videoclip oficial último vídeo",
+          "match": [
+            "judit garuz"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Miss Caffeina",
+          "query": "Miss Caffeina videoclip oficial último vídeo",
+          "match": [
+            "miss caffeina"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Abraham Mateo",
+          "query": "Abraham Mateo videoclip oficial último vídeo",
+          "match": [
+            "abraham mateo"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "The Weeknd",
+          "query": "The Weeknd videoclip oficial último vídeo",
+          "match": [
+            "the weeknd"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Rigoberta Bandini",
+          "query": "Rigoberta Bandini videoclip oficial último vídeo",
+          "match": [
+            "rigoberta bandini"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Mahmood",
+          "query": "Mahmood videoclip oficial último vídeo",
+          "match": [
+            "mahmood"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Bajocero",
+          "query": "Bajocero videoclip oficial último vídeo",
+          "match": [
+            "bajocero"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Orville Peck",
+          "query": "Orville Peck videoclip oficial último vídeo",
+          "match": [
+            "orville peck"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Beyoncé",
+          "query": "Beyoncé videoclip oficial último vídeo",
+          "match": [
+            "beyoncé"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Katy Perry",
+          "query": "Katy Perry videoclip oficial último vídeo",
+          "match": [
+            "katy perry"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Dua Lipa",
+          "query": "Dua Lipa videoclip oficial último vídeo",
+          "match": [
+            "dua lipa"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Leire Martínez",
+          "query": "Leire Martínez videoclip oficial último vídeo",
+          "match": [
+            "leire martínez"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "La Oreja de Van Gogh",
+          "query": "La Oreja de Van Gogh videoclip oficial último vídeo",
+          "match": [
+            "la oreja de van gogh"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Harry Styles",
+          "query": "Harry Styles videoclip oficial último vídeo",
+          "match": [
+            "harry styles"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Pablo Alborán",
+          "query": "Pablo Alborán videoclip oficial último vídeo",
+          "match": [
+            "pablo alborán"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        }
+      ]
+    }
+  ],
+  "videojuegos": [
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "Eurogamerspain",
+          "query": "Eurogamer España videojuegos",
+          "match": [
+            "eurogamer españa",
+            "eurogamerspain"
+          ],
+          "topic": [],
+          "max_months": 6,
+          "mode": "latest_old",
+          "translate_title": false
+        }
+      ]
+    },
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "Chiches",
+          "query": "Chiches videojuegos Cities Skylines",
+          "match": [
+            "chiches"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "random_latest",
+          "translate_title": false
+        },
+        {
+          "channel": "3DJUEGOS",
+          "query": "3DJuegos canal videojuegos",
+          "match": [
+            "3djuegos"
+          ],
+          "topic": [],
+          "max_months": 6,
+          "mode": "latest_old",
+          "translate_title": false
+        }
+      ]
+    },
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "Karimero",
+          "query": "Karimero Pokémon vídeo",
+          "match": [
+            "karimero"
+          ],
+          "topic": [
+            "pokémon",
+            "pokemon"
+          ],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        },
+        {
+          "channel": "Lynx Reviewer",
+          "query": "Lynx Reviewer Pokémon",
+          "match": [
+            "lynx reviewer"
+          ],
+          "topic": [
+            "pokémon",
+            "pokemon"
+          ],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        },
+        {
+          "channel": "Mprin",
+          "query": "Mprin Los Sims último",
+          "match": [
+            "mprin"
+          ],
+          "topic": [
+            "sims"
+          ],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Sitycims",
+          "query": "Sitycims Los Sims gameplay",
+          "match": [
+            "sitycims"
+          ],
+          "topic": [
+            "sims"
+          ],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": true
+        }
+      ]
+    }
+  ],
+  "express": [
+    {
+      "label": "ZONA PODCAST",
+      "candidates": [
+        {
+          "channel": "La Ruina",
+          "query": "La Ruina podcast",
+          "match": [
+            "la ruina"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest_old",
+          "translate_title": false
+        },
+        {
+          "channel": "Nadie sabe nada",
+          "query": "Nadie Sabe Nada podcast Andreu Buenafuente Berto",
+          "match": [
+            "nadie sabe nada",
+            "cadena ser"
+          ],
+          "topic": [
+            "nadie sabe nada"
+          ],
+          "max_months": 0,
+          "mode": "latest_old",
+          "translate_title": false
+        }
+      ]
+    },
+    {
+      "label": "ZONA PODCAST",
+      "candidates": [
+        {
+          "channel": "Cuarto Milenial",
+          "query": "Cuarto Milenial Andrea Compton Lalachus podcast",
+          "match": [
+            "cuarto milenial"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "last10",
+          "translate_title": false
+        },
+        {
+          "channel": "Estirando el Chicle",
+          "query": "Estirando el Chicle podcast",
+          "match": [
+            "estirando el chicle"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        },
+        {
+          "channel": "Ni tan bien SER",
+          "query": "Ni tan bien Cadena SER podcast",
+          "match": [
+            "cadena ser",
+            "ni tan bien"
+          ],
+          "topic": [
+            "ni tan bien"
+          ],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false
+        },
+        {
+          "channel": "Podimo_es · Malas Personas",
+          "query": "Podimo España Malas Personas podcast",
+          "match": [
+            "podimo"
+          ],
+          "topic": [
+            "malas personas"
+          ],
+          "max_months": 0,
+          "mode": "latest_old",
+          "translate_title": false
+        }
+      ]
+    },
+    {
+      "label": "ZONA PODCAST",
+      "candidates": [
+        {
+          "channel": "Animales Humanos",
+          "query": "Animales Humanos podcast",
+          "match": [
+            "animales humanos"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        },
+        {
+          "channel": "La Pija y la Quinqui",
+          "query": "La Pija y la Quinqui podcast",
+          "match": [
+            "la pija y la quinqui"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "last10_old",
+          "translate_title": false
+        },
+        {
+          "channel": "Dos gays y un hetero",
+          "query": "Dos gays y un hetero podcast",
+          "match": [
+            "dos gays y un hetero"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        },
+        {
+          "channel": "Vaya Vaina",
+          "query": "Vaya Vaina podcast",
+          "match": [
+            "vaya vaina"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        },
+        {
+          "channel": "Pantomima Full",
+          "query": "Pantomima Full canal",
+          "match": [
+            "pantomima full"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        },
+        {
+          "channel": "Fundación Contexto y Acción",
+          "query": "Fundación Contexto y Acción Sofá y Samantha",
+          "match": [
+            "contexto y acción",
+            "contexto y accion"
+          ],
+          "topic": [
+            "sofá y samantha",
+            "sofa y samantha"
+          ],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        }
+      ]
+    },
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "Linguriosa",
+          "query": "Linguriosa vídeos",
+          "match": [
+            "linguriosa"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        },
+        {
+          "channel": "PutoMikel",
+          "query": "PutoMikel historia",
+          "match": [
+            "putomikel"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest_old",
+          "translate_title": false
+        }
+      ]
+    },
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "La Gata de Schrödinger",
+          "query": "La Gata de Schrödinger divulgación",
+          "match": [
+            "la gata de schrödinger",
+            "la gata de schrodinger"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest_old",
+          "translate_title": false
+        }
+      ]
+    },
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "El Comidista",
+          "query": "El Comidista vídeos recetas y comida",
+          "match": [
+            "el comidista"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        },
+        {
+          "channel": "Cata a ciegas",
+          "query": "El Comidista cata a ciegas",
+          "match": [
+            "el comidista"
+          ],
+          "topic": [
+            "cata a ciegas"
+          ],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        },
+        {
+          "channel": "Cenando con Pablo",
+          "query": "Cenando con Pablo gastronomía",
+          "match": [
+            "cenando con pablo"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        },
+        {
+          "channel": "laSexta · Pesadilla en la cocina",
+          "query": "laSexta Pesadilla en la cocina Chicote",
+          "match": [
+            "la sexta",
+            "lasexta"
+          ],
+          "topic": [
+            "pesadilla en la cocina"
+          ],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        }
+      ]
+    }
+  ],
+  "nature": [
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "BBC Earth",
+          "query": "BBC Earth wildlife animals documentary",
+          "match": [
+            "bbc earth"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": true
+        }
+      ]
+    },
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "NatGeoAnimals",
+          "query": "Nat Geo Animals wildlife",
+          "match": [
+            "nat geo animals",
+            "natgeoanimals"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": true
+        }
+      ]
+    },
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "Melerus",
+          "query": "Melerus animales naturaleza",
+          "match": [
+            "melerus"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest_old",
+          "translate_title": false
+        },
+        {
+          "channel": "National Geographic España · Mario de Wonder",
+          "query": "National Geographic España Mario de Wonder animales",
+          "match": [
+            "national geographic españa"
+          ],
+          "topic": [
+            "mario",
+            "wonder"
+          ],
+          "max_months": 0,
+          "mode": "random",
+          "translate_title": false
+        }
+      ]
+    }
+  ],
+  "android": [
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "topesdegama",
+          "query": "topesdegama últimos vídeos canal oficial",
+          "match": [
+            "topes de gama",
+            "topesdegama"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false,
+          "max_days": 90,
+          "preferred_days": 30
+        }
+      ]
+    },
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "TUTECNOMUNDO",
+          "query": "TUTECNOMUNDO último vídeo canal oficial",
+          "match": [
+            "tutecnomundo",
+            "tu tecno mundo"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false,
+          "max_days": 90,
+          "preferred_days": 30
+        }
+      ]
+    },
+    {
+      "label": "",
+      "candidates": [
+        {
+          "channel": "ProAndroid",
+          "query": "ProAndroid último vídeo canal oficial",
+          "match": [
+            "proandroid",
+            "pro android"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false,
+          "max_days": 90,
+          "preferred_days": 30
+        },
+        {
+          "channel": "MundoSamsung205",
+          "query": "MundoSamsung205 último vídeo",
+          "match": [
+            "mundosamsung205",
+            "mundo samsung205",
+            "mundo samsung 205",
+            "mundo samsung"
+          ],
+          "topic": [],
+          "max_months": 0,
+          "mode": "latest",
+          "translate_title": false,
+          "max_days": 90,
+          "preferred_days": 30
+        }
+      ]
+    }
+  ]
+}

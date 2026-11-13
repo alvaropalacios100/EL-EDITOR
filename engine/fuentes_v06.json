@@ -1,0 +1,152 @@
+[
+  {
+    "nombre": "Europa Press",
+    "seccion": "Política",
+    "url": "https://www.europapress.es/rss/rss.aspx?ch=66",
+    "modo": "rss"
+  },
+  {
+    "nombre": "Nuevo Sureste",
+    "seccion": "Política",
+    "url": "https://nuevosureste.es/",
+    "modo": "google"
+  },
+  {
+    "nombre": "RTVE Noticias",
+    "seccion": "Política",
+    "url": "https://www.rtve.es/rss/",
+    "modo": "google"
+  },
+  {
+    "nombre": "ESCplus",
+    "seccion": "Entretenimiento",
+    "url": "https://www.escplus.es/",
+    "modo": "google"
+  },
+  {
+    "nombre": "Vertele",
+    "seccion": "Entretenimiento",
+    "url": "https://www.eldiario.es/vertele/rss/",
+    "modo": "rss"
+  },
+  {
+    "nombre": "FórmulaTV",
+    "seccion": "Entretenimiento",
+    "url": "https://www.formulatv.com/xml/formulatv.xml",
+    "modo": "rss"
+  },
+  {
+    "nombre": "Europa Press Cultura",
+    "seccion": "Celebrities",
+    "url": "https://www.europapress.es/cultura/",
+    "modo": "google"
+  },
+  {
+    "nombre": "LOS40",
+    "seccion": "Celebrities",
+    "url": "https://los40.com/",
+    "modo": "google"
+  },
+  {
+    "nombre": "Billboard",
+    "seccion": "Celebrities",
+    "url": "https://www.billboard.com/",
+    "modo": "google"
+  },
+  {
+    "nombre": "SimsVIP",
+    "seccion": "Videojuegos",
+    "url": "https://simsvip.com/",
+    "modo": "google"
+  },
+  {
+    "nombre": "Nintendúo",
+    "seccion": "Videojuegos",
+    "url": "https://nintenduo.com/",
+    "modo": "google"
+  },
+  {
+    "nombre": "VidaExtra",
+    "seccion": "Videojuegos",
+    "url": "https://www.vidaextra.com/index.xml",
+    "modo": "rss"
+  },
+  {
+    "nombre": "Teatro Madrid",
+    "seccion": "Express",
+    "url": "https://teatromadrid.com/",
+    "modo": "google"
+  },
+  {
+    "nombre": "Directo al Paladar",
+    "seccion": "Express",
+    "url": "https://www.directoalpaladar.com/index.xml",
+    "modo": "rss"
+  },
+  {
+    "nombre": "Madrid Destino",
+    "seccion": "Express",
+    "url": "https://www.madrid-destino.com/",
+    "modo": "google"
+  },
+  {
+    "nombre": "El Confidencial",
+    "seccion": "Política",
+    "url": "https://www.elconfidencial.com/",
+    "modo": "google"
+  },
+  {
+    "nombre": "El País",
+    "seccion": "Política",
+    "url": "https://elpais.com/",
+    "modo": "google"
+  },
+  {
+    "nombre": "Jenesaispop",
+    "seccion": "Celebrities",
+    "url": "https://jenesaispop.com/feed/",
+    "modo": "rss"
+  },
+  {
+    "nombre": "Mondo Sonoro",
+    "seccion": "Celebrities",
+    "url": "https://www.mondosonoro.com/feed/",
+    "modo": "rss"
+  },
+  {
+    "nombre": "Shangay",
+    "seccion": "Celebrities",
+    "url": "https://shangay.com/feed/",
+    "modo": "rss"
+  },
+  {
+    "nombre": "Variety",
+    "seccion": "Celebrities",
+    "url": "https://variety.com/feed/",
+    "modo": "rss"
+  },
+  {
+    "nombre": "Variety",
+    "seccion": "Entretenimiento",
+    "url": "https://variety.com/feed/",
+    "modo": "rss"
+  },
+  {
+    "nombre": "Muy Interesante",
+    "seccion": "Nature",
+    "url": "https://feeds.feedburner.com/Muyinteresantees",
+    "modo": "rss"
+  },
+  {
+    "nombre": "National Geographic España",
+    "seccion": "Nature",
+    "url": "https://www.nationalgeographic.com.es/feeds/rss.html",
+    "modo": "rss"
+  },
+  {
+    "nombre": "ECOticias",
+    "seccion": "Nature",
+    "url": "https://www.ecoticias.com/naturaleza/feed",
+    "modo": "rss"
+  }
+]

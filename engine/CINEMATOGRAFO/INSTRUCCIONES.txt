@@ -1,0 +1,10 @@
+PROGRAMAR COLUMNAS EN EL EDITOR v1.6.4
+
+1. Copia un .txt existente y cambia el nombre del archivo.
+2. Modifica TÍTULO, FECHA_PUBLICACION (AAAA-MM-DD) y HORA_PUBLICACION (HH:MM, hora de Madrid).
+3. Deja una línea vacía y escribe el texto completo, separando párrafos mediante una línea en blanco.
+4. Ejecuta INICIAR_PRUEBA.bat (o PRUEBA_SIN_INTERNET.bat). Solo se generan páginas de textos cuya fecha y hora ya han llegado.
+5. Para publicar en una web, sube los archivos HTML generados, NUNCA las carpetas EDITORIALES ni CINEMATOGRAFO, que contienen borradores privados.
+6. Si una columna no tiene fecha, el generador avisará del error en vez de publicarla por accidente.
+7. Fecha de la primera crítica El Cinematógrafo: 09/11/2026 como fecha inicial de esta entrega; puedes cambiarla en el .txt.
+8. Si el periódico se aloja en GitHub Pages, para publicar automáticamente hace falta configurar una tarea programada de generación y despliegue; los HTML estáticos no se regeneran solos.
