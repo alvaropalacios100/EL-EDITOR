@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Preparar motor editorial                    
-        run: unzip -q EL_EDITOR_v191_motor.zip -d "$RUNNER_TEMP/editor"
+        run: unzip -q EL_EDITOR_v192_motor.zip -d "$RUNNER_TEMP/editor"
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -69,11 +69,18 @@ jobs:
           path: redaccion-privada
           persist-credentials: false
       - name: Publicar artículos propios
-        run: python "$RUNNER_TEMP/editor/engine/redaccion_v180.py" "$RUNNER_TEMP/site" "$GITHUB_WORKSPACE/redaccion-privada"
+        run: python "$RUNNER_TEMP/editor/engine/redaccion_v180.py" "$RUNNER_TEMP/site" "$GITHUB_WORKSPACE/redaccion-privada"      
+      - name: Preparar notificaciones
+        run: python "$RUNNER_TEMP/editor/engine/push_v192.py" prepare "$RUNNER_TEMP/site"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
           path: ${{ runner.temp }}/site
       - name: Publicar en GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4        
+      - name: Enviar notificaciones de EL EDITOR
+        env:
+          ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
+        run: python "$RUNNER_TEMP/editor/engine/push_v192.py" send "$RUNNER_TEMP/site"
+
