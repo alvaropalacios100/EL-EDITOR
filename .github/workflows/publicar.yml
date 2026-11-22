@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Preparar motor editorial
-        run: unzip -q EL_EDITOR_v200_fase1_motor.zip -d "$RUNNER_TEMP/editor"
+        run: unzip -q EL_EDITOR_v201_fase2_motor.zip -d "$RUNNER_TEMP/editor"
 
       - uses: actions/setup-python@v5
         with:
